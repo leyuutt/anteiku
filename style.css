@@ -45,6 +45,19 @@ body {
     text-transform: uppercase; /* Text transform */
     color: #ffffff;
     margin: 0;
+    text-decoration: none;
+}
+.site-title:hover {
+    color: #480505;
+    text-shadow: 0 0 10px #4e1717;
+    transform: scale(1.05);
+}
+a{
+    text-decoration: none;
+}
+.site-title a {
+    color: inherit;
+    text-decoration: none;
 }
 .main-nav {
     display: flex; /* Flexbox layout */
@@ -603,7 +616,7 @@ ol.styled-list li {
 .gallery1 li:hover,
 .gallery2 li:hover {
     border-color:#4e1602;
-    transform: scale(1.05) rotate(2deg);
+    transform: scale(1.05) rotate(5deg);
     box-shadow: 0 15px 40px rgba(61, 11, 11, 0.5);
     z-index: 10;
 }
