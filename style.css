@@ -644,13 +644,13 @@ ol.styled-list li {
     background-color: #2a2a2a;
     padding: 50px;
     border-radius: 15px;
-    border: 3px solid #FF6B35;
+    border: 3px solid #510606;
 }
 
 .contact-form h3 {
     font-family: 'Bangers', cursive;
     font-size: 36px;
-    color: #FF6B35;
+    color: #510606;
     margin-bottom: 30px;
     text-align: center;
 }
@@ -668,7 +668,7 @@ ol.styled-list li {
 }
 
 .required {
-    color: #FF6B35;
+    color: #510606;
 }
 
 /* Text and Number Inputs */
@@ -689,7 +689,7 @@ ol.styled-list li {
 .form-group input:focus,
 .form-group textarea:focus {
     outline: none;
-    border-color: #FF6B35;
+    border-color: #510606;
     box-shadow: 0 0 10px rgba(255, 107, 53, 0.3);
 }
 
@@ -744,7 +744,7 @@ ol.styled-list li {
 .form-group input[type="range"]::-webkit-slider-thumb {
     width: 20px;
     height: 20px;
-    background: #FF6B35;
+    background: #510606;
     cursor: pointer;
     border-radius: 50%;
 }
@@ -780,15 +780,11 @@ ol.styled-list li {
     transform: translateY(0);
 }
 
-
-
-
-
 .main-footer {
     background-color: #0a0a0a;
     padding: 40px 20px;
     text-align: center;
-    border-top: 3px solid #FF6B35;
+    border-top: 3px solid #510606;
 }
 
 .main-footer p {
@@ -806,7 +802,7 @@ ol.styled-list li {
     display: inline-block;
     width: 50px;
     height: 50px;
-    background-color: #FF6B35;
+    background-color: #510606;
     color: #ffffff;
     border-radius: 50%;
     display: flex;
@@ -821,10 +817,8 @@ ol.styled-list li {
     transform: rotate(360deg) scale(1.2);
 }
 
-/* ========================================
+/* 
    20. MEDIA QUERIES - RESPONSIVE DESIGN
-   ======================================== */
-
 /* Tablets and smaller laptops */
 @media screen and (max-width: 1024px) {
     .features-container {
