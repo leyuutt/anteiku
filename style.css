@@ -87,11 +87,35 @@ body {
     background-color: #ffffff;
     color: #940000; 
 }
+/* 6. BUTTONS WITH PSEUDO-ELEMENTS */
+.cta-button {
+    display: inline-block;
+    padding: 15px 40px;
+    background: linear-gradient(to right, #8c0202, #4f0707);
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 50px;
+    border-color: #000;
+    border: 3px solid #ffffff;
+    transition: all 0.3s ease;
+}
+
+.cta-button::after { /* Pseudo-element */
+   
+    margin-left: 10px;
+}
+
+.cta-button:hover {
+    transform: scale(1.1); /* Transform scale */
+    box-shadow: 0 10px 30px rgba(255, 107, 53, 0.5);
+}
 
 .hero-section {
     margin-top: 80px;
     height: 600px;
-    background-image: url('./img/ken1.jpg'); /* Background image */
+    background-image: url('./img/kenhero.jpg'); /* Background image */
     background-repeat: no-repeat; /* No repeat */
     background-size: cover; /* Cover */
     background-position: center; /* Center position */
@@ -761,7 +785,7 @@ ol.styled-list li {
 .submit-button {
     width: 100%;
     padding: 18px;
-    background: linear-gradient(to right, #FF6B35, #F7931E);
+    background: linear-gradient(to right, #410a0a, #4a0101);
     color: #ffffff;
     border: none;
     border-radius: 8px;
