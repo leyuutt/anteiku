@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Anteiku </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- Google Fonts -->
+     <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header class="main-header">
+        <h1 class="site-title">Anteiku</h1>
+        <nav class="main-nav">
+            <a href="index.html" class="nav-link active">Home</a>
+            <a href="about.html" class="nav-link">About</a>
+            <a href="gallery.html" class="nav-link">Gallery</a>
+            <a href="contact.html" class="nav-link">Contact</a>
+        </nav>
+    </header>
+      <section class="contact-hero" id="contact">
+        <h2 class="page-title">Get In Touch</h2>
+        <p class="page-subtitle">Share your thoughts about Naruto with us!</p>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="form-section">
+        <div class="form-container">
+            <form class="contact-form">
+                <h3>Contact Form</h3>
+                
+                <!-- Text Input -->
+                <div class="form-group">
+                    <label for="name">Full Name <span class="required">*</span></label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                </div>
+
+                <!-- Number Input -->
+                <div class="form-group">
+                    <label for="age">Age <span class="required">*</span></label>
+                    <input type="number" id="age" name="age" min="1" max="120" placeholder="Enter your age" required>
+                </div>
+
+                <!-- Radio Buttons -->
+                <div class="form-group">
+                    <label>Gender <span class="required">*</span></label>
+                    <div class="radio-group">
+                        <label class="radio-label">
+                            <input type="radio" name="gender" value="male" required>
+                            <span>Male</span>
+                        </label>
+                        <label class="radio-label">
+                            <input type="radio" name="gender" value="female" required>
+                            <span>Female</span>
+                        </label>
+                        <label class="radio-label">
+                            <input type="radio" name="gender" value="other" required>
+                            <span>Other</span>
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Checkboxes -->
+                <div class="form-group">
+                    <label>Favorite Characters</label>
+                    <div class="checkbox-group">
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="characters" value="naruto">
+                            <span>Naruto</span>
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="characters" value="sasuke">
+                            <span>Sasuke</span>
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="characters" value="sakura">
+                            <span>Sakura</span>
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="characters" value="kakashi">
+                            <span>Kakashi</span>
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Range Input -->
+                <div class="form-group">
+                    <label for="satisfaction">Satisfaction Level (1-10)</label>
+                    <input type="range" id="satisfaction" name="satisfaction" min="1" max="10" value="5">
+                    <div class="range-labels">
+                        <span>1</span>
+                        <span>5</span>
+                        <span>10</span>
+                    </div>
+                </div>
+
+                <!-- Textarea -->
+                <div class="form-group">
+                    <label for="message">Your Message <span class="required">*</span></label>
+                    <textarea id="message" name="message" rows="5" placeholder="Tell us what you love about Naruto..." required></textarea>
+                </div>
+
+                <!-- Submit Button -->
+                <button type="submit" class="submit-button">
+                    Send Message <i class="fa fa-paper-plane"></i>
+                </button>
+            </form>
+        </div>
+    </section>
